@@ -17,3 +17,5 @@ Playwright automation tests for Singlish to Sinhala translation system.
 npm install
 npx playwright install
 ```
+### 3. Running
+npm test
