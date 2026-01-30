@@ -1,0 +1,320 @@
+{
+  "testCases": [
+    {
+      "id": "Pos_Fun_0001",
+      "description": "Convert a compound sentence with places and common words in English",
+      "input": "api dhennama ekama school ekata giye eeth A/Ls nisaa ven vunaa",
+      "expectedOutput": "අපි දෙන්නම එකම school එකට ගියෙ ඒත් A/Ls නිසා වෙන් වුනා",
+      "type": "positive",
+      "lengthType": "M",
+      "category": "Names / places / common English words • Compound sentence • M (31–299 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0002",
+      "description": "Convert long paragraph formats",
+      "input": "dhitvaa suLi kuNaatuva samaGa aethi vuu gangavathura saha naayayaee m heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva aethi athara",
+      "expectedOutput": "දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව ඇති අතර",
+      "type": "positive",
+      "lengthType": "M",
+      "category": "Formatting (spaces / line breaks / paragraph) • Compound sentence • M (31–299 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0003",
+      "description": "Convert simple greeting",
+      "input": "aayuboovan!",
+      "expectedOutput": "ආයුබෝවන්!",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Greeting / request / response • Simple sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0004",
+      "description": "Convert informal phrasing",
+      "input": "eeyi, ooka dhiyan.",
+      "expectedOutput": "ඒයි, ඕක දියන්.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Slang / informal language • Simple sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0005",
+      "description": "Convert formal request",
+      "input": "karuNaakaralaa eka poddak balanna.",
+      "expectedOutput": "කරුණාකරලා එක පොඩ්ඩක් බලන්න.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Greeting / request / response • Imperative (command) • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0006",
+      "description": "Convert sentence with date",
+      "input": "25/12/2025 dhinaya",
+      "expectedOutput": "25/12/2025 දිනය",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Punctuation / numbers • Simple sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0007",
+      "description": "Convert sentence with English abbreviation",
+      "input": "ID ekak oya gaava thiyanavaadha?",
+      "expectedOutput": "ID එකක් ඔය ගාව තියනවාද?",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Mixed Singlish + English • Interrogative (question) • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0008",
+      "description": "Convert multi-word expression with collocation",
+      "input": "mata oona poddak inna hariyata vaeda gihin enna",
+      "expectedOutput": "මට ඕන පොඩික් ඉන්න හරියට වැඩ ගිහින් එන්න",
+      "type": "positive",
+      "lengthType": "M",
+      "category": "Word combination / phrase pattern • Simple sentence • M (31–299 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0009",
+      "description": "Convert polite question request",
+      "input": "karuNaakaralaa mata podi udhavvak karanna puLuvandha?",
+      "expectedOutput": "කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?",
+      "type": "positive",
+      "lengthType": "M",
+      "category": "Greeting / request / response • Interrogative (question) • M (31–299 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0010",
+      "description": "Convert sentence with English brand name",
+      "input": "Whatsapp eken mama evuvaa",
+      "expectedOutput": "Whatsapp එකෙන් මම එවුවා",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Mixed Singlish + English • Simple sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0011",
+      "description": "Convert repeated words for emphasis",
+      "input": "hari hari eka eka",
+      "expectedOutput": "හරි හරි එක එක",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Word combination / phrase pattern • Simple sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0012",
+      "description": "Convert negative statement",
+      "input": "api heta ennee naehae.",
+      "expectedOutput": "අපි හෙට එන්නේ නැහැ.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Daily language usage • Negation (negative form) • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0013",
+      "description": "Convert sentence with proper spacing",
+      "input": "mata bath kanna oonee",
+      "expectedOutput": "මට බත් කන්න ඕනේ",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Formatting (spaces / line breaks / paragraph) • Simple sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0014",
+      "description": "Convert simple present tense statement",
+      "input": "mama heta yanavaa.",
+      "expectedOutput": "මම හෙට යනවා.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Daily language usage • Present tense • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0015",
+      "description": "Convert complex conditional sentence",
+      "input": "oyaa enavaanam mama balan innavaa.",
+      "expectedOutput": "ඔයා එනවානම් මම බලන් ඉන්නවා.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Daily language usage • Complex sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0016",
+      "description": "Convert interrogative question",
+      "input": "oyaata kohomadha?",
+      "expectedOutput": "ඔයාට කොහොමද?",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Greeting / request / response • Interrogative (question) • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0017",
+      "description": "Convert imperative command",
+      "input": "vahaama enna.",
+      "expectedOutput": "වහාම එන්න.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Daily language usage • Imperative (command) • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0018",
+      "description": "Convert sentence with multiple spaces",
+      "input": "mama  gedhara  yanavaa.",
+      "expectedOutput": "මම  ගෙදර  යනවා.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Formatting (spaces / line breaks / paragraph) • Simple sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0019",
+      "description": "Convert past tense sentence",
+      "input": "mama iyee gedhara giyaa.",
+      "expectedOutput": "මම ඊයේ ගෙදර ගියා.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Daily language usage • Past tense • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0020",
+      "description": "Convert future tense sentence",
+      "input": "mama heta enavaa.",
+      "expectedOutput": "මම හෙට එනවා.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Daily language usage • Future tense • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0021",
+      "description": "Convert singular pronoun sentence",
+      "input": "mama yanna hadhannee ehaata.",
+      "expectedOutput": "මම යන්න හදන්නේ එහාට.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Daily language usage • Pronoun variation (I/you/we/they) • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0022",
+      "description": "Convert sentence with multiple English technical terms",
+      "input": "Zoom eken WiFi connect karala Email evanu",
+      "expectedOutput": "Zoom එකෙන් WiFi connect කරලා Email එවනු",
+      "type": "positive",
+      "lengthType": "M",
+      "category": "Mixed Singlish + English • Simple sentence • M (31–299 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0023",
+      "description": "Convert sentence with currency format",
+      "input": "mata Rs. 5343 oonee.",
+      "expectedOutput": "මට Rs. 5343 ඕනේ.",
+      "type": "positive",
+      "lengthType": "S",
+      "category": "Punctuation / numbers • Simple sentence • S (≤30 characters) • Accuracy validation"
+    },
+    {
+      "id": "Pos_Fun_0024",
+      "description": "Convert sentence with preserved English common words",
+      "input": "siiyaa Colombo yanna hadhannee.",
+      "expectedOutput": "සීයා Colombo යන්න හදන්නේ.",
+      "type": "positive",
+      "lengthType": "M",
+      "category": "Names / places / common English words • Simple sentence • M (31–299 characters) • Accuracy validation"
+    },
+    {
+      "id": "Neg_Fun_0001",
+      "description": "Test joined words without spaces",
+      "input": "mamagedharayanavaa",
+      "expectedOutput": "මමගෙදරයනවා",
+      "type": "negative",
+      "lengthType": "S",
+      "category": "Typographical error handling • Simple sentence • S (≤30 characters) • Robustness validation"
+    },
+    {
+      "id": "Neg_Fun_0002",
+      "description": "Test slang/colloquial phrase",
+      "input": "ela machan! supiri!!",
+      "expectedOutput": "එල මචන්! සුපිරි!!",
+      "type": "negative",
+      "lengthType": "S",
+      "category": "Slang / informal language • Simple sentence • S (≤30 characters) • Robustness validation"
+    },
+    {
+      "id": "Neg_Fun_0003",
+      "description": "Test very long input (400+ chars)",
+      "input": "mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa.",
+      "expectedOutput": "",
+      "type": "negative",
+      "lengthType": "L",
+      "category": "Formatting (spaces / line breaks / paragraph) • Simple sentence • L (≥300 characters) • Robustness validation"
+    },
+    {
+      "id": "Neg_Fun_0004",
+      "description": "Test random English words mixed",
+      "input": "mama going to gedhara yanavaa now.",
+      "expectedOutput": "මම going to ගෙදර යනවා now.",
+      "type": "negative",
+      "lengthType": "S",
+      "category": "Mixed Singlish + English • Simple sentence • S (≤30 characters) • Robustness validation"
+    },
+    {
+      "id": "Neg_Fun_0005",
+      "description": "Test repeated words for emphasis",
+      "input": "hari hari eka eka tika tika",
+      "expectedOutput": "හරි හරි එක එක ටික ටික",
+      "type": "negative",
+      "lengthType": "S",
+      "category": "Word combination / phrase pattern • Simple sentence • S (≤30 characters) • Robustness validation"
+    },
+    {
+      "id": "Neg_Fun_0006",
+      "description": "Test currency symbols in middle",
+      "input": "Rs. 5000 dhenna mama.",
+      "expectedOutput": "Rs. 5000 දෙන්න මම.",
+      "type": "negative",
+      "lengthType": "S",
+      "category": "Punctuation / numbers • Simple sentence • S (≤30 characters) • Robustness validation"
+    },
+    {
+      "id": "Neg_Fun_0007",
+      "description": "Test uncommon English abbreviation",
+      "input": "BRB karalaa ennam.",
+      "expectedOutput": "BRB කරලා එන්නම්.",
+      "type": "negative",
+      "lengthType": "S",
+      "category": "Mixed Singlish + English • Simple sentence • S (≤30 characters) • Robustness validation"
+    },
+    {
+      "id": "Neg_Fun_0008",
+      "description": "Test multiple consecutive line breaks",
+      "input": "mama gedhara yanavaa.\n\n\noyaana evadha?",
+      "expectedOutput": "මම ගෙදර යනවා.\n\n\nනොයාන එවද?",
+      "type": "negative",
+      "lengthType": "M",
+      "category": "Formatting (spaces / line breaks / paragraph) • Simple sentence • M (31–299 characters) • Formatting preservation"
+    },
+    {
+      "id": "Neg_Fun_0009",
+      "description": "Test excessive punctuation",
+      "input": "mama??? yanavaa!!! kohomadha??",
+      "expectedOutput": "මම??? යනවා!!! කොහොමද??",
+      "type": "negative",
+      "lengthType": "S",
+      "category": "Punctuation / numbers • Simple sentence • S (≤30 characters) • Robustness validation"
+    },
+    {
+      "id": "Neg_Fun_0010",
+      "description": "Test technical English terms",
+      "input": "GPU performance hariyata check karanna.",
+      "expectedOutput": "GPU performance හරියට check කරන්න.",
+      "type": "negative",
+      "lengthType": "S",
+      "category": "Mixed Singlish + English • Simple sentence • S (≤30 characters) • Robustness validation"
+    },
+    {
+      "id": "Pos_UI_0001",
+      "description": "Test real-time output updating",
+      "input": "mama gedhara giyaa",
+      "expectedOutput": "මම ගෙදර ගියා",
+      "type": "ui",
+      "lengthType": "S",
+      "category": "Usability flow (real-time conversion) • Simple sentence • S (≤30 characters) • Real-time output update behavior",
+      "uiTest": true
+    }
+  ]
+}

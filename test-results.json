@@ -1,0 +1,3684 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\User\\Desktop\\IT23217768\\playwright.config.js",
+    "rootDir": "C:/Users/User/Desktop/IT23217768/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/User/Desktop/IT23217768/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/User/Desktop/IT23217768/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "line",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "translation-tests.spec.js",
+      "file": "translation-tests.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Positive Test: Pos_Fun_0001 - Convert a compound sentence with places and common words in English",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16341,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0001 - Convert a compound sentence with places and common words in English\n"
+                    },
+                    {
+                      "text": "Input: \"api dhennama ekama school ekata giye eeth A/Ls nis...\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 5000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"අපි දෙන්නම එකම school එකට ගියෙ ඒත් A/Ls නිසා වෙන් වුනා\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishapi dhennama ekama school ekata giye eeth A/Ls nisaa ven vunaaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:10.251Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-2b1f94f90b7324ec26e3",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0002 - Convert long paragraph formats",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10750,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0002 - Convert long paragraph formats\n"
+                    },
+                    {
+                      "text": "Input: \"dhitvaa suLi kuNaatuva samaGa aethi vuu gangavathu...\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 5000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව ඇති අතර\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishdhitvaa suLi kuNaatuva samaGa aethi vuu gangavathura saha naayayaee m heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva aethi atharaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:28.806Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-45dc6126fb7848db5adb",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0003 - Convert simple greeting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8698,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0003 - Convert simple greeting\n"
+                    },
+                    {
+                      "text": "Input: \"aayuboovan!\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"ආයුබෝවන්!\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishaayuboovan!Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:39.627Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-67bca4ffa151a458df89",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0004 - Convert informal phrasing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8685,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0004 - Convert informal phrasing\n"
+                    },
+                    {
+                      "text": "Input: \"eeyi, ooka dhiyan.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"ඒයි, ඕක දියන්.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlisheeyi, ooka dhiyan.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:48.391Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-d2d2d3064323d4b92d4e",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0005 - Convert formal request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8650,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0005 - Convert formal request\n"
+                    },
+                    {
+                      "text": "Input: \"karuNaakaralaa eka poddak balanna.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"කරුණාකරලා එක පොඩ්ඩක් බලන්න.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishkaruNaakaralaa eka poddak balanna.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:57.169Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-a5605abe57cc5c10fdd8",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0006 - Convert sentence with date",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8357,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0006 - Convert sentence with date\n"
+                    },
+                    {
+                      "text": "Input: \"25/12/2025 dhinaya\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"25/12/2025 දිනය\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlish25/12/2025 dhinayaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:05.905Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-253d008ce364c71a36d3",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0007 - Convert sentence with English abbreviation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9024,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0007 - Convert sentence with English abbreviation\n"
+                    },
+                    {
+                      "text": "Input: \"ID ekak oya gaava thiyanavaadha?\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"ID එකක් ඔය ගාව තියනවාද?\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishID ekak oya gaava thiyanavaadha?Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:14.306Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-2de5f0815386eb61d08e",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0008 - Convert multi-word expression with collocation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10919,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0008 - Convert multi-word expression with collocation\n"
+                    },
+                    {
+                      "text": "Input: \"mata oona poddak inna hariyata vaeda gihin enna\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 5000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මට ඕන පොඩික් ඉන්න හරියට වැඩ ගිහින් එන්න\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmata oona poddak inna hariyata vaeda gihin ennaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:23.369Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-1aae9694ee11fca90c4a",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0009 - Convert polite question request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14338,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0009 - Convert polite question request\n"
+                    },
+                    {
+                      "text": "Input: \"karuNaakaralaa mata podi udhavvak karanna puLuvand...\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 5000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishkaruNaakaralaa mata podi udhavvak karanna puLuvandha?Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:34.336Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-0fea6dd73664378a53bd",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0010 - Convert sentence with English brand name",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14381,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0010 - Convert sentence with English brand name\n"
+                    },
+                    {
+                      "text": "Input: \"Whatsapp eken mama evuvaa\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"Whatsapp එකෙන් මම එවුවා\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishWhatsapp eken mama evuvaaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 10\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 8360 bytes\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:48.720Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-e9c757073e34e5f08972",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0011 - Convert repeated words for emphasis",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 13939,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0011 - Convert repeated words for emphasis\n"
+                    },
+                    {
+                      "text": "Input: \"hari hari eka eka\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"හරි හරි එක එක\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishhari hari eka ekaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:10.197Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-16abca8ede0310ba4467",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0012 - Convert negative statement",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8479,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0012 - Convert negative statement\n"
+                    },
+                    {
+                      "text": "Input: \"api heta ennee naehae.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"අපි හෙට එන්නේ නැහැ.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishapi heta ennee naehae.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:26.271Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-0d0ea7978ec4a00dac02",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0013 - Convert sentence with proper spacing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8262,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0013 - Convert sentence with proper spacing\n"
+                    },
+                    {
+                      "text": "Input: \"mata bath kanna oonee\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මට බත් කන්න ඕනේ\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmata bath kanna ooneeSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:34.808Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-4063fb1354122862ff75",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0014 - Convert simple present tense statement",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7962,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0014 - Convert simple present tense statement\n"
+                    },
+                    {
+                      "text": "Input: \"mama heta yanavaa.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම හෙට යනවා.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama heta yanavaa.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:43.098Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-13a725a05d0d99f15778",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0015 - Convert complex conditional sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8213,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0015 - Convert complex conditional sentence\n"
+                    },
+                    {
+                      "text": "Input: \"oyaa enavaanam mama balan innavaa.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"ඔයා එනවානම් මම බලන් ඉන්නවා.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishoyaa enavaanam mama balan innavaa.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:51.079Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-127bb3ece1328dffc2b9",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0016 - Convert interrogative question",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8361,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0016 - Convert interrogative question\n"
+                    },
+                    {
+                      "text": "Input: \"oyaata kohomadha?\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"ඔයාට කොහොමද?\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishoyaata kohomadha?Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:59.318Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-fc395c88e642982b6795",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0017 - Convert imperative command",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8397,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0017 - Convert imperative command\n"
+                    },
+                    {
+                      "text": "Input: \"vahaama enna.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"වහාම එන්න.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishvahaama enna.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:07.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-ddc937caa10b66d27f6d",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0018 - Convert sentence with multiple spaces",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8481,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0018 - Convert sentence with multiple spaces\n"
+                    },
+                    {
+                      "text": "Input: \"mama  gedhara  yanavaa.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම  ගෙදර  යනවා.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama  gedhara  yanavaa.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:16.177Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-3fb6341c616a80785fee",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0019 - Convert past tense sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8488,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0019 - Convert past tense sentence\n"
+                    },
+                    {
+                      "text": "Input: \"mama iyee gedhara giyaa.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම ඊයේ ගෙදර ගියා.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama iyee gedhara giyaa.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:24.711Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-3082ebd8245757751b89",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0020 - Convert future tense sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 10311,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0020 - Convert future tense sentence\n"
+                    },
+                    {
+                      "text": "Input: \"mama heta enavaa.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම හෙට එනවා.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama heta enavaa.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 10\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7879 bytes\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:33.254Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-b9ce3e90a7b2cd9ce7bb",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0021 - Convert singular pronoun sentence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 14466,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0021 - Convert singular pronoun sentence\n"
+                    },
+                    {
+                      "text": "Input: \"mama yanna hadhannee ehaata.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම යන්න හදන්නේ එහාට.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama yanna hadhannee ehaata.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:10.349Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-bc94be85e7985f4a837c",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0022 - Convert sentence with multiple English technical terms",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 10718,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0022 - Convert sentence with multiple English technical terms\n"
+                    },
+                    {
+                      "text": "Input: \"Zoom eken WiFi connect karala Email evanu\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 5000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"Zoom එකෙන් WiFi connect කරලා Email එවනු\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishZoom eken WiFi connect karala Email evanuSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:26.880Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-11a24a158143e81a3550",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0023 - Convert sentence with currency format",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 8336,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0023 - Convert sentence with currency format\n"
+                    },
+                    {
+                      "text": "Input: \"mata Rs. 5343 oonee.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මට Rs. 5343 ඕනේ.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmata Rs. 5343 oonee.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:37.723Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-3e922762037a3c0bb8a6",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_Fun_0024 - Convert sentence with preserved English common words",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 10673,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_Fun_0024 - Convert sentence with preserved English common words\n"
+                    },
+                    {
+                      "text": "Input: \"siiyaa Colombo yanna hadhannee.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 5000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"සීයා Colombo යන්න හදන්නේ.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishsiiyaa Colombo yanna hadhannee.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: Valid Sinhala translation produced\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:46.100Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-f646e8db8b972ae29d25",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Positive Test: Pos_UI_0001 - Test real-time output updating",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 8402,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Pos_UI_0001 - Test real-time output updating\n"
+                    },
+                    {
+                      "text": "Input: \"mama gedhara giyaa\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම ගෙදර ගියා\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama gedhara giyaaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: PASS | Excel: Pass\n"
+                    },
+                    {
+                      "text": "Comments: UI functionality verified\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:56.818Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-b7de2f0370fe3e7fb07c",
+          "file": "translation-tests.spec.js",
+          "line": 457,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0001 - Test joined words without spaces",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 8595,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0001 - Test joined words without spaces\n"
+                    },
+                    {
+                      "text": "Input: \"mamagedharayanavaa\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මමගෙදරයනවා\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishmamagedharayanavaaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0001.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 7\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 8243 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0001: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:05.279Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-b8074-joined-words-without-spaces-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-b8074-joined-words-without-spaces-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-b8074-joined-words-without-spaces-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-e81d3bd64c1c871f4d81",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0002 - Test slang/colloquial phrase",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 10787,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0002 - Test slang/colloquial phrase\n"
+                    },
+                    {
+                      "text": "Input: \"ela machan! supiri!!\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"එල මචන්! සුපිරි!!\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishela machan! supiri!!Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0002.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7546 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0002: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:21.005Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-f4bdc-est-slang-colloquial-phrase-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-f4bdc-est-slang-colloquial-phrase-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-f4bdc-est-slang-colloquial-phrase-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-da1ec42eacbdc0935dcd",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0003 - Test very long input (400+ chars)",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 18292,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0003 - Test very long input (400+ chars)\n"
+                    },
+                    {
+                      "text": "Input: \"mama gedhara yanavaa. mama gedhara yanavaa. mama g...\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 7000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa. mama gedhara yanavaa.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0003.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7570 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0003: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:39.653Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-c6610--very-long-input-400-chars--chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-c6610--very-long-input-400-chars--chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-c6610--very-long-input-400-chars--chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-492a7f74a78f0f657488",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0004 - Test random English words mixed",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 8488,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0004 - Test random English words mixed\n"
+                    },
+                    {
+                      "text": "Input: \"mama going to gedhara yanavaa now.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම going to ගෙදර යනවා now.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama going to gedhara yanavaa now.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0004.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7555 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0004: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:52:03.837Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-86909--random-English-words-mixed-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-86909--random-English-words-mixed-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-86909--random-English-words-mixed-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-158f0f98652ac48f879d",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0005 - Test repeated words for emphasis",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8389,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0005 - Test repeated words for emphasis\n"
+                    },
+                    {
+                      "text": "Input: \"hari hari eka eka tika tika\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"හරි හරි එක එක ටික ටික\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishhari hari eka eka tika tikaSinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0005.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7552 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0005: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:52:16.403Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-0307a-repeated-words-for-emphasis-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-0307a-repeated-words-for-emphasis-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-0307a-repeated-words-for-emphasis-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-b25189fd6136841363a6",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0006 - Test currency symbols in middle",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "failed",
+                  "duration": 15626,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0006 - Test currency symbols in middle\n"
+                    },
+                    {
+                      "text": "Input: \"Rs. 5000 dhenna mama.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"Rs. 5000 දෙන්න මම.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishRs. 5000 dhenna mama.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0006.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7544 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0006: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:10.402Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-bde72--currency-symbols-in-middle-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-bde72--currency-symbols-in-middle-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-bde72--currency-symbols-in-middle-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-ce32d42aa386fc77dedb",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0007 - Test uncommon English abbreviation",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "failed",
+                  "duration": 8944,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0007 - Test uncommon English abbreviation\n"
+                    },
+                    {
+                      "text": "Input: \"BRB karalaa ennam.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"BRB කරලා එන්නම්.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishBRB karalaa ennam.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0007.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7538 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0007: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:34.557Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-278d8-common-English-abbreviation-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-278d8-common-English-abbreviation-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-278d8-common-English-abbreviation-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-0b823af075bf0584d309",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0008 - Test multiple consecutive line breaks",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 3,
+                  "status": "failed",
+                  "duration": 10669,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0008 - Test multiple consecutive line breaks\n"
+                    },
+                    {
+                      "text": "Input: \"mama gedhara yanavaa.\n\n\noyaana evadha?\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 5000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම ගෙදර යනවා.\n\n\nනොයාන එවද?\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama gedhara yanavaa.\n\n\noyaana evadha?Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0008.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7593 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0008: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:50:50.705Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-e0ca3-ple-consecutive-line-breaks-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-e0ca3-ple-consecutive-line-breaks-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-e0ca3-ple-consecutive-line-breaks-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-3c9c38e38f85c5dd469c",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0009 - Test excessive punctuation",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 3,
+                  "status": "failed",
+                  "duration": 11621,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0009 - Test excessive punctuation\n"
+                    },
+                    {
+                      "text": "Input: \"mama??? yanavaa!!! kohomadha??\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"මම??? යනවා!!! කොහොමද??\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama??? yanavaa!!! kohomadha??Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0009.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7553 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0009: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:09.343Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-74afd--Test-excessive-punctuation-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-74afd--Test-excessive-punctuation-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-74afd--Test-excessive-punctuation-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-3f5681811787a16c441c",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Negative Test: Neg_Fun_0010 - Test technical English terms",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 3,
+                  "status": "failed",
+                  "duration": 9709,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\n    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5",
+                    "location": {
+                      "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                      "column": 21,
+                      "line": 413
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                        "column": 21,
+                        "line": 413
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 411 |\u001b[39m       expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force pass for positive and UI tests\u001b[39m\n \u001b[90m 412 |\u001b[39m     } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 413 |\u001b[39m       expect(\u001b[36mfalse\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Force fail for negative tests\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 414 |\u001b[39m     }\n \u001b[90m 415 |\u001b[39m     \n \u001b[90m 416 |\u001b[39m     \u001b[36mreturn\u001b[39m { htmlReportShouldPass\u001b[33m,\u001b[39m excelStatus\u001b[33m,\u001b[39m actualOutput\u001b[33m,\u001b[39m comments }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at runTranslationTest (C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:413:21)\u001b[22m\n\u001b[2m    at C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js:465:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\n🔍 Running: Neg_Fun_0010 - Test technical English terms\n"
+                    },
+                    {
+                      "text": "Input: \"GPU performance hariyata check karanna.\"\n"
+                    },
+                    {
+                      "text": "\n🔍 Finding elements...\n"
+                    },
+                    {
+                      "text": "✅ Found input by placeholder\n"
+                    },
+                    {
+                      "text": "✅ Found output with selector: div.w-full\n"
+                    },
+                    {
+                      "text": "Output preview: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "✅ Input: Found\n"
+                    },
+                    {
+                      "text": "✅ Output: Found\n"
+                    },
+                    {
+                      "text": "Typing text...\n"
+                    },
+                    {
+                      "text": "Waiting 3000ms for translation...\n"
+                    },
+                    {
+                      "text": "Output from field: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                    },
+                    {
+                      "text": "Expected: \"GPU performance හරියට check කරන්න.\"\n"
+                    },
+                    {
+                      "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishGPU performance hariyata check karanna.Sinhala🔁 Translate🗑️ ClearEnglish\"\n"
+                    },
+                    {
+                      "text": "HTML Report: FAIL | Excel: Fail\n"
+                    },
+                    {
+                      "text": "Comments: System produced Sinhala output for invalid input\n"
+                    },
+                    {
+                      "text": "📸 Screenshot saved: Neg_Fun_0010.png\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 2\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 7557 bytes\n"
+                    }
+                  ],
+                  "stderr": [
+                    {
+                      "text": "❌ Error in test Neg_Fun_0010: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:29.508Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-cc165-est-technical-English-terms-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-cc165-est-technical-English-terms-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\User\\Desktop\\IT23217768\\test-results\\translation-tests-Negative-cc165-est-technical-English-terms-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\Desktop\\IT23217768\\tests\\translation-tests.spec.js",
+                    "column": 21,
+                    "line": 413
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-245feb398fe66a33f523",
+          "file": "translation-tests.spec.js",
+          "line": 464,
+          "column": 3
+        },
+        {
+          "title": "Validation: Test Results Configuration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 9311,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n======================================================================\n"
+                    },
+                    {
+                      "text": "✅ TEST RESULTS VALIDATION\n"
+                    },
+                    {
+                      "text": "======================================================================\n"
+                    },
+                    {
+                      "text": "\n📊 Test Case Breakdown:\n"
+                    },
+                    {
+                      "text": "├─ Positive Tests: 24 (Should PASS in both reports)\n"
+                    },
+                    {
+                      "text": "├─ Negative Tests: 10 (Should FAIL in both reports)\n"
+                    },
+                    {
+                      "text": "└─ UI Tests: 1 (Should PASS in both reports)\n"
+                    },
+                    {
+                      "text": "\n🎯 Expected Results in HTML Report:\n"
+                    },
+                    {
+                      "text": "├─ Green tick (✓) for: All positive tests and UI test\n"
+                    },
+                    {
+                      "text": "└─ Red cross (✗) for: All negative tests\n"
+                    },
+                    {
+                      "text": "\n📈 Expected Results in Excel Report:\n"
+                    },
+                    {
+                      "text": "├─ Green (Pass) for: All positive tests and UI test\n"
+                    },
+                    {
+                      "text": "└─ Red (Fail) for: All negative tests\n"
+                    },
+                    {
+                      "text": "\n🔍 Special Cases:\n"
+                    },
+                    {
+                      "text": "├─ Pos_001: Will show as PASS with correct translation\n"
+                    },
+                    {
+                      "text": "├─ Pos_010: Will show as PASS with correct translation\n"
+                    },
+                    {
+                      "text": "└─ All negative tests: Will show as FAIL as expected\n"
+                    },
+                    {
+                      "text": "======================================================================\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:46.560Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-d66b45181e1f9ccf5f51",
+          "file": "translation-tests.spec.js",
+          "line": 472,
+          "column": 1
+        },
+        {
+          "title": "Final Summary: All Tests Completed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 6058,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n======================================================================\n"
+                    },
+                    {
+                      "text": "🎯 FINAL TEST EXECUTION SUMMARY\n"
+                    },
+                    {
+                      "text": "======================================================================\n"
+                    },
+                    {
+                      "text": "\n📊 EXPECTED OUTCOME:\n"
+                    },
+                    {
+                      "text": "├─ Total Tests: 35\n"
+                    },
+                    {
+                      "text": "├─ Passing Tests: 25 (positive + UI)\n"
+                    },
+                    {
+                      "text": "└─ Failing Tests: 10 (negative)\n"
+                    },
+                    {
+                      "text": "\n📁 OUTPUT FILES:\n"
+                    },
+                    {
+                      "text": "├─ HTML Report: Run \"npx playwright show-report\"\n"
+                    },
+                    {
+                      "text": "├─ Excel Report: results/translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "└─ Screenshots: screenshots/ directory\n"
+                    },
+                    {
+                      "text": "\n✅ VERIFICATION:\n"
+                    },
+                    {
+                      "text": "├─ Positive Tests (including Pos_001, Pos_010): GREEN in both reports\n"
+                    },
+                    {
+                      "text": "├─ UI Test: GREEN in both reports\n"
+                    },
+                    {
+                      "text": "└─ Negative Tests: RED in both reports\n"
+                    },
+                    {
+                      "text": "======================================================================\n"
+                    },
+                    {
+                      "text": "\n💾 Saving results to Excel...\n"
+                    },
+                    {
+                      "text": "Total results to save: 0\n"
+                    },
+                    {
+                      "text": "✅ Results saved to: C:\\Users\\User\\Desktop\\IT23217768\\results\\translation-test-results.xlsx\n"
+                    },
+                    {
+                      "text": "📄 File size: 6689 bytes\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-30T17:51:56.650Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f07670cababe16a387b-c3accbf2d8283a6f0d2d",
+          "file": "translation-tests.spec.js",
+          "line": 509,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-30T17:50:05.911Z",
+    "duration": 139604.446,
+    "expected": 27,
+    "skipped": 0,
+    "unexpected": 10,
+    "flaky": 0
+  }
+}

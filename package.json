@@ -1,0 +1,20 @@
+{
+  "name": "it3040-translation-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for Singlish to Sinhala translation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "install-browsers": "npx playwright install"
+  },
+  "keywords": ["playwright", "testing", "translation"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "exceljs": "^4.4.0"
+  }
+}
